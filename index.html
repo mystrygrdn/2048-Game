@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="title">2048 GAME</h1>
+
+        <h2 id="score">Score: 0</h2>
+
+        <div class="grid" id="grid"></div>
+
+        <button id="restart" class="restart-btn">Restart Game</button>
+        <div id="gameOverModal" class="modal">
+          <div class="modal-content">
+            <h2>Game Over 😢</h2>
+
+            <p>Your score: <span id="finalScore"></span></p>
+
+            <button id="restartModal" class="restart-btn">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
